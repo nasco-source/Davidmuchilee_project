@@ -30,7 +30,6 @@ background-image: url('images/1.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position-y: top;
-    transition:.3s ease-in-out;
    }
 
 
@@ -55,9 +54,12 @@ background-image: url('images/1.jpg');
 
    .description{
     position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
+    font-size: 15px;
+    top: 50%;
+    left: 0;
+    /* margin: auto; */
+    padding: 3em;
+    padding-right: 40em;
     
 }
 .description h1{
@@ -66,20 +68,22 @@ background-image: url('images/1.jpg');
 .description p{
  color:whitesmoke;
  font-size: 20px;
- /* width: 50%; */
+ width: 100%;
  line-height: 1.5;
 }
 .description button{
  border:1px  solid #F97300;
  background:#F97300;
  color:#fff;
+ 
 }
 
 
 /* about section */
 
 .about{
-    margin: 4em 0;
+    
+    margin: 8em 0 0 4em;
     padding: 1em;
     position: relative;
    }
@@ -88,15 +92,18 @@ background-image: url('images/1.jpg');
     margin: 2em;
    }
    .about img{
-    height: 100%;
-       width: 100%;
+    height: 400px;
+       width: 400px;
        border-radius: 50%
    }
    .about span{
+       font-weight: bold;
     display: block;
     color: #888;
     position: absolute;
-    left: 115px;
+    right: 80px;
+    left: 10em;
+    margin-top: 20px;
    }
    .about .desc{
     padding: 2em;
@@ -165,5 +172,42 @@ background-image: url('images/1.jpg');
        font-size: 30px;
    }
    .address  p{
-margin-top: 40px;
+    margin-top: 40px;
    }
+
+   .svg-size1{
+       background-image: url('./images/svg/digital.svg');
+       width: 100px;
+       height: 100px;
+       margin: auto;
+   }
+
+   .svg-size2{
+    background-image: url('./images/svg/quality.svg');
+    width: 100px;
+    height: 100px;
+    margin: auto;
+} 
+
+.svg-size3{
+    background-image: url('./images/svg/video-camera.svg');
+    max-width: 100px;
+    height: 100px;
+    margin: auto;
+}  
+
+.svg-size4{
+    background-image: url('./images/svg/travel.svg');
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+} 
+
+.svg-size5{
+    background-image: url('./images/svg/consultancy.svg');
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}  
